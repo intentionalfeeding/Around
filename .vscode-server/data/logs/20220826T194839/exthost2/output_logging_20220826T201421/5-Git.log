@@ -1,0 +1,39 @@
+[2022-08-26T20:14:22.692Z] Log level: Info
+[2022-08-26T20:14:22.719Z] [info] Validating found git in: git
+[2022-08-26T20:14:22.822Z] [info] Using git 2.17.1 from git
+[2022-08-26T20:14:22.936Z] > git rev-parse --show-toplevel [63ms]
+[2022-08-26T20:14:22.950Z] > git rev-parse --git-dir --git-common-dir [3ms]
+[2022-08-26T20:14:22.957Z] [info] Open repository: /home/russellmeng21
+[2022-08-26T20:14:23.381Z] > git status -z -uall [414ms]
+[2022-08-26T20:14:23.519Z] > git show --textconv :go/src/around/main.go [24ms]
+[2022-08-26T20:14:23.528Z] > git ls-files --stage -- /home/russellmeng21/go/src/around/main.go [10ms]
+[2022-08-26T20:14:23.670Z] > git check-ignore -v -z --stdin [3ms]
+[2022-08-26T20:14:30.071Z] > git symbolic-ref --short HEAD [2ms]
+[2022-08-26T20:14:30.079Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+[2022-08-26T20:14:30.095Z] > git remote --verbose [1ms]
+[2022-08-26T20:14:30.096Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-08-26T20:14:32.551Z] > git config --get commit.template [9ms]
+[2022-08-26T20:14:32.798Z] > git status -z -uall [232ms]
+[2022-08-26T20:14:32.798Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-26T20:14:32.810Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-08-26T20:14:32.827Z] > git remote --verbose [1ms]
+[2022-08-26T20:14:32.827Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-08-26T20:14:36.887Z] > git config --get commit.template [25ms]
+[2022-08-26T20:14:36.896Z] > git check-ignore -v -z --stdin [18ms]
+[2022-08-26T20:14:37.476Z] > git check-ignore -v -z --stdin [1ms]
+[2022-08-26T20:14:43.991Z] > git check-ignore -v -z --stdin [2ms]
+[2022-08-26T20:14:44.589Z] > git check-ignore -v -z --stdin [1ms]
+[2022-08-26T20:14:55.320Z] > git check-ignore -v -z --stdin [2ms]
+[2022-08-26T20:17:51.649Z] > git check-ignore -v -z --stdin [1ms]
+[2022-08-26T20:17:52.741Z] > git check-ignore -v -z --stdin [2ms]
+[2022-08-26T20:17:55.749Z] > git check-ignore -v -z --stdin [1ms]
+[2022-08-26T20:20:31.593Z] > git add -A -- . [3045ms]
+[2022-08-26T20:20:31.594Z] error: open(".viminfo"): Permission denied
+error: unable to index file .viminfo
+fatal: adding files failed
+[2022-08-26T20:21:30.640Z] > git check-ignore -v -z --stdin [1ms]
+[2022-08-26T20:21:35.044Z] > git check-ignore -v -z --stdin [2ms]
+[2022-08-26T20:21:37.588Z] > git check-ignore -v -z --stdin [1ms]
+[2022-08-26T20:21:39.342Z] > git show --textconv :.ssh/authorized_keys [9ms]
+[2022-08-26T20:21:39.343Z] > git ls-files --stage -- /home/russellmeng21/.ssh/authorized_keys [2ms]
+[2022-08-26T20:21:49.117Z] > git check-ignore -v -z --stdin [4ms]

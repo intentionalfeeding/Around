@@ -1,0 +1,11 @@
+[2022-08-18 02:12:39.021] [exthost] [info] Extension host with pid 15450 started
+[2022-08-18 02:12:39.057] [exthost] [info] Lock '/home/russellmeng21/.vscode-server/data/User/workspaceStorage/c8cb1820363efe9126a907e475b77324/vscode.lock': Lock acquired.
+[2022-08-18 02:12:39.144] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+[2022-08-18 02:12:39.490] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-18 02:12:39.498] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-18 02:12:39.506] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-18 02:12:39.656] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-18 02:12:39.838] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-18 02:12:40.227] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-18 02:12:40.231] [exthost] [info] Lock '/home/russellmeng21/.vscode-server/data/User/workspaceStorage/c8cb1820363efe9126a907e475b77324/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-18 02:12:40.244] [exthost] [info] Extension host with pid 15450 exiting with code 0

@@ -1,0 +1,40 @@
+[2022-08-26 19:48:41.524] [exthost] [info] Extension host with pid 11422 started
+[2022-08-26 19:48:41.550] [exthost] [info] Lock '/home/russellmeng21/.vscode-server/data/User/workspaceStorage/c8cb1820363efe9126a907e475b77324/vscode.lock': Lock acquired.
+[2022-08-26 19:48:41.934] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+[2022-08-26 19:48:42.243] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-26 19:48:42.252] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-26 19:48:42.262] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-26 19:48:42.403] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-26 19:48:42.512] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-26 19:48:43.273] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-26 19:48:43.322] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-26 19:48:43.336] [exthost] [info] Eager extensions activated
+[2022-08-26 20:08:06.513] [exthost] [error] [golang.go] provider FAILED
+[2022-08-26 20:08:06.514] [exthost] [error] Error: context canceled
+	at handleResponse (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.2/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.2/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.2/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-26 20:08:07.566] [exthost] [error] [golang.go] provider FAILED
+[2022-08-26 20:08:07.566] [exthost] [error] Error: context canceled
+	at handleResponse (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.2/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.2/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.2/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-26 20:08:07.978] [exthost] [error] [golang.go] provider FAILED
+[2022-08-26 20:08:07.979] [exthost] [error] Error: context canceled
+	at handleResponse (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.2/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.2/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.2/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-26 20:08:08.430] [exthost] [error] [golang.go] provider FAILED
+[2022-08-26 20:08:08.430] [exthost] [error] Error: context canceled
+	at handleResponse (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.2/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.2/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.2/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-26 20:13:46.956] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2022-08-26 20:13:49.468] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2022-08-26 20:14:08.136] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-26 20:14:08.136] [exthost] [info] Lock '/home/russellmeng21/.vscode-server/data/User/workspaceStorage/c8cb1820363efe9126a907e475b77324/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-26 20:14:08.164] [exthost] [info] Extension host with pid 11422 exiting with code 0

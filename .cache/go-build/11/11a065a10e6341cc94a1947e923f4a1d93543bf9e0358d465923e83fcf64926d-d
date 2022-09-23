@@ -1,0 +1,7 @@
+./dwarf.go
+./eval.go
+./peek.go
+./print.go
+./ptrace.go
+./server.go
+./value.go

@@ -1,0 +1,2454 @@
+[Info  - 7:48:43 PM] 2022/08/26 19:48:43 go env for /home/russellmeng21
+(root /home/russellmeng21/go/src/around)
+(go version go version go1.18.4 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOPATH=/home/russellmeng21/go
+GOWORK=
+GOCACHE=/home/russellmeng21/.cache/go-build
+GONOSUMDB=
+GOPRIVATE=
+GOSUMDB=sum.golang.org
+GOMOD=/dev/null
+GOFLAGS=
+GO111MODULE=
+GOROOT=/usr/lib/go-1.18
+GOPROXY=https://proxy.golang.org,direct
+GOINSECURE=
+GOMODCACHE=/home/russellmeng21/go/pkg/mod
+GONOPROXY=
+
+
+[Info  - 7:48:45 PM] 2022/08/26 19:48:45 go/packages.Load #1
+	snapshot=0
+	directory=/home/russellmeng21/go/src/around
+	query=[around/... builtin]
+	packages=8
+
+[Info  - 7:48:45 PM] 2022/08/26 19:48:45 go/packages.Load #1: updating metadata for 351 packages
+
+[Error - 7:48:45 PM] 2022/08/26 19:48:45 around/util: no dep handle for gopkg.in/yaml.v2: no metadata for gopkg.in/yaml.v2
+	snapshot=0
+
+[Info  - 7:48:46 PM] 2022/08/26 19:48:46 falling back to safe trimming due to type errors: [/usr/lib/go-1.18/src/runtime/vdso_linux.go:53:38: invalid operation: division by zero /usr/lib/go-1.18/src/runtime/vdso_linux.go:54:38: invalid operation: division by zero] or still-missing identifiers: map[memRecordCycle:true pageBits:true]
+	package="runtime"
+
+[Info  - 7:48:46 PM] 2022/08/26 19:48:46 discovered missing identifiers: map[options:true]
+	package="vendor/golang.org/x/text/unicode/bidi"
+
+[Info  - 7:48:47 PM] 2022/08/26 19:48:47 discovered missing identifiers: map[debugMethod:true]
+	package="net/rpc"
+
+[Error - 7:48:49 PM] 2022/08/26 19:48:49 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:48:49 PM] 2022/08/26 19:48:49 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:50:28 PM] 2022/08/26 19:50:28 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 7:50:58 PM] 2022/08/26 19:50:58 background imports cache refresh starting
+
+[Info  - 7:51:00 PM] 2022/08/26 19:51:00 background refresh finished after 1.653699468s
+
+[Error - 8:05:20 PM] 2022/08/26 20:05:20 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:05:22 PM] 2022/08/26 20:05:22 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go]
+
+[Info  - 8:05:23 PM] 2022/08/26 20:05:23 go/packages.Load #2
+	snapshot=7
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go]
+	packages=1
+
+[Info  - 8:05:23 PM] 2022/08/26 20:05:23 go/packages.Load #2
+	snapshot=7
+	package="command-line-arguments"
+	files=[/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go]
+
+[Info  - 8:05:23 PM] 2022/08/26 20:05:23 go/packages.Load #2: updating metadata for 1 packages
+
+[Error - 8:05:23 PM] 2022/08/26 20:05:23 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:05:24 PM] 2022/08/26 20:05:24 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:05:25 PM] 2022/08/26 20:05:25 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:05:26 PM] 2022/08/26 20:05:26 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:05:33 PM] 2022/08/26 20:05:33 go/packages.Load #5
+	snapshot=15
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/src/around/handler/router.go]
+	packages=1
+
+[Info  - 8:05:33 PM] 2022/08/26 20:05:33 go/packages.Load #5
+	snapshot=15
+	package="around/handler"
+	files=[/home/russellmeng21/go/src/around/handler/post.go /home/russellmeng21/go/src/around/handler/router.go /home/russellmeng21/go/src/around/handler/user.go]
+
+[Info  - 8:05:33 PM] 2022/08/26 20:05:33 go/packages.Load #5: updating metadata for 1 packages
+
+[Error - 8:05:33 PM] 2022/08/26 20:05:33 around/util: no dep handle for gopkg.in/yaml.v2: no metadata for gopkg.in/yaml.v2
+	snapshot=17
+
+[Error - 8:05:33 PM] 2022/08/26 20:05:33 around/util: no dep handle for gopkg.in/yaml.v2: no metadata for gopkg.in/yaml.v2
+	snapshot=18
+
+[Info  - 8:05:34 PM] 2022/08/26 20:05:34 go/packages.Load #6
+	snapshot=19
+	directory=/home/russellmeng21/go/src/around
+	query=[around]
+	packages=1
+
+[Info  - 8:05:34 PM] 2022/08/26 20:05:34 go/packages.Load #6
+	snapshot=19
+	package="around"
+	files=[/home/russellmeng21/go/src/around/main.go]
+
+[Info  - 8:05:34 PM] 2022/08/26 20:05:34 go/packages.Load #6: updating metadata for 1 packages
+
+[Info  - 8:05:34 PM] 2022/08/26 20:05:34 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go]
+
+[Info  - 8:05:34 PM] 2022/08/26 20:05:34 go/packages.Load #7
+	snapshot=19
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go]
+	packages=1
+
+[Info  - 8:05:34 PM] 2022/08/26 20:05:34 go/packages.Load #7
+	snapshot=19
+	package="command-line-arguments"
+	files=[/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go]
+
+[Info  - 8:05:34 PM] 2022/08/26 20:05:34 go/packages.Load #7: updating metadata for 1 packages
+
+[Error - 8:05:34 PM] 2022/08/26 20:05:34 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:06:31 PM] 2022/08/26 20:06:31 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:06:32 PM] 2022/08/26 20:06:32 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:06:32 PM] 2022/08/26 20:06:32 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:06:33 PM] 2022/08/26 20:06:33 go/packages.Load #8
+	snapshot=22
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file=/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+	packages=1
+
+[Info  - 8:06:33 PM] 2022/08/26 20:06:33 go/packages.Load #8
+	snapshot=22
+	package="command-line-arguments"
+	files=[/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go]
+
+[Info  - 8:06:33 PM] 2022/08/26 20:06:33 go/packages.Load #8: updating metadata for 1 packages
+
+[Info  - 8:06:33 PM] 2022/08/26 20:06:33 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:06:33 PM] 2022/08/26 20:06:33 go/packages.Load #9
+	snapshot=22
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+	packages=1
+
+[Info  - 8:06:33 PM] 2022/08/26 20:06:33 go/packages.Load #9
+	snapshot=22
+	package="command-line-arguments"
+	files=[/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:06:33 PM] 2022/08/26 20:06:33 go/packages.Load #9: updating metadata for 1 packages
+
+[Error - 8:06:33 PM] 2022/08/26 20:06:33 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:06:42 PM] 2022/08/26 20:06:42 background imports cache refresh starting
+
+[Info  - 8:06:42 PM] 2022/08/26 20:06:42 background refresh finished after 19.087559ms
+
+[Error - 8:06:58 PM] 2022/08/26 20:06:58 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:07:00 PM] 2022/08/26 20:07:00 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:07:00 PM] 2022/08/26 20:07:00 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:01 PM] 2022/08/26 20:07:01 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:02 PM] 2022/08/26 20:07:02 go/packages.Load #11
+	snapshot=27
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file=/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file=/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+	packages=1
+
+[Info  - 8:07:02 PM] 2022/08/26 20:07:02 go/packages.Load #11
+	snapshot=27
+	package="command-line-arguments"
+	files=[/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go]
+
+[Info  - 8:07:02 PM] 2022/08/26 20:07:02 go/packages.Load #11: updating metadata for 1 packages
+
+[Info  - 8:07:02 PM] 2022/08/26 20:07:02 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:02 PM] 2022/08/26 20:07:02 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:02 PM] 2022/08/26 20:07:02 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:03 PM] 2022/08/26 20:07:03 go/packages.Load #14
+	snapshot=29
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go]
+	packages=1
+
+[Info  - 8:07:03 PM] 2022/08/26 20:07:03 go/packages.Load #14
+	snapshot=29
+	package="command-line-arguments"
+	files=[/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go]
+
+[Info  - 8:07:03 PM] 2022/08/26 20:07:03 go/packages.Load #14: updating metadata for 1 packages
+
+[Info  - 8:07:03 PM] 2022/08/26 20:07:03 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:03 PM] 2022/08/26 20:07:03 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:03 PM] 2022/08/26 20:07:03 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:07:03 PM] 2022/08/26 20:07:03 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:07:03 PM] 2022/08/26 20:07:03 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:03 PM] 2022/08/26 20:07:03 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:03 PM] 2022/08/26 20:07:03 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:11 PM] 2022/08/26 20:07:11 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:11 PM] 2022/08/26 20:07:11 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:11 PM] 2022/08/26 20:07:11 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:11 PM] 2022/08/26 20:07:11 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:07:11 PM] 2022/08/26 20:07:11 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:07:11 PM] 2022/08/26 20:07:11 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:11 PM] 2022/08/26 20:07:11 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:11 PM] 2022/08/26 20:07:11 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:31 PM] 2022/08/26 20:07:31 background imports cache refresh starting
+
+[Info  - 8:07:31 PM] 2022/08/26 20:07:31 background refresh finished after 15.616529ms
+
+[Info  - 8:07:32 PM] 2022/08/26 20:07:32 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:07:32 PM] 2022/08/26 20:07:32 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:07:32 PM] 2022/08/26 20:07:32 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:32 PM] 2022/08/26 20:07:32 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:32 PM] 2022/08/26 20:07:32 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:33 PM] 2022/08/26 20:07:33 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:33 PM] 2022/08/26 20:07:33 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:33 PM] 2022/08/26 20:07:33 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:33 PM] 2022/08/26 20:07:33 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:07:33 PM] 2022/08/26 20:07:33 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:07:33 PM] 2022/08/26 20:07:33 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:33 PM] 2022/08/26 20:07:33 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:33 PM] 2022/08/26 20:07:33 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:34 PM] 2022/08/26 20:07:34 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/Hsrr.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:34 PM] 2022/08/26 20:07:34 go/packages.Load #39
+	snapshot=33
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/Hsrr.go]
+	packages=1
+
+[Info  - 8:07:34 PM] 2022/08/26 20:07:34 go/packages.Load #39
+	snapshot=33
+	package="command-line-arguments"
+	files=[/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/Hsrr.go]
+
+[Info  - 8:07:34 PM] 2022/08/26 20:07:34 go/packages.Load #39: updating metadata for 1 packages
+
+[Info  - 8:07:34 PM] 2022/08/26 20:07:34 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:34 PM] 2022/08/26 20:07:34 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:34 PM] 2022/08/26 20:07:34 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:07:34 PM] 2022/08/26 20:07:34 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:07:34 PM] 2022/08/26 20:07:34 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:34 PM] 2022/08/26 20:07:34 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:34 PM] 2022/08/26 20:07:34 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:46 PM] 2022/08/26 20:07:46 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:07:46 PM] 2022/08/26 20:07:46 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:07:46 PM] 2022/08/26 20:07:46 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:46 PM] 2022/08/26 20:07:46 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:46 PM] 2022/08/26 20:07:46 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:47 PM] 2022/08/26 20:07:47 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:47 PM] 2022/08/26 20:07:47 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:47 PM] 2022/08/26 20:07:47 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:47 PM] 2022/08/26 20:07:47 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:07:47 PM] 2022/08/26 20:07:47 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:07:47 PM] 2022/08/26 20:07:47 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:47 PM] 2022/08/26 20:07:47 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:47 PM] 2022/08/26 20:07:47 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:47 PM] 2022/08/26 20:07:47 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/Hsrr.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:48 PM] 2022/08/26 20:07:48 go/packages.Load #57
+	snapshot=36
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/Hsrr.go file=/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go]
+	packages=1
+
+[Info  - 8:07:48 PM] 2022/08/26 20:07:48 go/packages.Load #57
+	snapshot=36
+	package="command-line-arguments"
+	files=[/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/Hsrr.go]
+
+[Info  - 8:07:48 PM] 2022/08/26 20:07:48 go/packages.Load #57: updating metadata for 1 packages
+
+[Info  - 8:07:48 PM] 2022/08/26 20:07:48 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:49 PM] 2022/08/26 20:07:49 go/packages.Load #58
+	snapshot=36
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go]
+	packages=1
+
+[Info  - 8:07:49 PM] 2022/08/26 20:07:49 go/packages.Load #58
+	snapshot=36
+	package="command-line-arguments"
+	files=[/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go]
+
+[Info  - 8:07:49 PM] 2022/08/26 20:07:49 go/packages.Load #58: updating metadata for 1 packages
+
+[Info  - 8:07:49 PM] 2022/08/26 20:07:49 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:49 PM] 2022/08/26 20:07:49 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:07:49 PM] 2022/08/26 20:07:49 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:07:49 PM] 2022/08/26 20:07:49 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:49 PM] 2022/08/26 20:07:49 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:07:49 PM] 2022/08/26 20:07:49 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:08:02 PM] 2022/08/26 20:08:02 background imports cache refresh starting
+
+[Info  - 8:08:02 PM] 2022/08/26 20:08:02 background refresh finished after 14.342479ms
+
+[Info  - 8:08:04 PM] 2022/08/26 20:08:04 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:08:04 PM] 2022/08/26 20:08:04 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:08:04 PM] 2022/08/26 20:08:04 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:08:04 PM] 2022/08/26 20:08:04 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:08:04 PM] 2022/08/26 20:08:04 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:08:05 PM] 2022/08/26 20:08:05 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:08:05 PM] 2022/08/26 20:08:05 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:08:05 PM] 2022/08/26 20:08:05 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:08:05 PM] 2022/08/26 20:08:05 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:08:05 PM] 2022/08/26 20:08:05 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:08:05 PM] 2022/08/26 20:08:05 imports fixes: AllImportsFixes: /home/russellmeng21/go/src/around/main.go:9:2: invalid import path: ""
+	file="/home/russellmeng21/go/src/around/main.go"
+
+[Info  - 8:08:06 PM] 2022/08/26 20:08:06 go/packages.Load #75
+	snapshot=42
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/src/around/main.go]
+	packages=1
+
+[Info  - 8:08:06 PM] 2022/08/26 20:08:06 go/packages.Load #75
+	snapshot=42
+	package="around"
+	files=[/home/russellmeng21/go/src/around/main.go]
+
+[Info  - 8:08:06 PM] 2022/08/26 20:08:06 go/packages.Load #75: updating metadata for 1 packages
+
+[Error - 8:08:06 PM] 2022/08/26 20:08:06 around: no dep handle for arou: no metadata for arou
+	snapshot=42
+
+[Error - 8:08:06 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 8:08:07 PM] 2022/08/26 20:08:07 go/packages.Load #78
+	snapshot=44
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/src/around/main.go]
+	packages=1
+
+[Info  - 8:08:07 PM] 2022/08/26 20:08:07 go/packages.Load #78
+	snapshot=44
+	package="around"
+	files=[/home/russellmeng21/go/src/around/main.go]
+
+[Info  - 8:08:07 PM] 2022/08/26 20:08:07 go/packages.Load #78: updating metadata for 1 packages
+
+[Error - 8:08:07 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 8:08:07 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 8:08:08 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 8:08:10 PM] 2022/08/26 20:08:10 go/packages.Load #89
+	snapshot=49
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/src/around/main.go]
+	packages=1
+
+[Info  - 8:08:10 PM] 2022/08/26 20:08:10 go/packages.Load #89
+	snapshot=49
+	package="around"
+	files=[/home/russellmeng21/go/src/around/main.go]
+
+[Info  - 8:08:10 PM] 2022/08/26 20:08:10 go/packages.Load #89: updating metadata for 1 packages
+
+[Info  - 8:08:10 PM] 2022/08/26 20:08:10 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/Hsrr.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:08:12 PM] 2022/08/26 20:08:12 go/packages.Load #90: updating metadata for 1 packages
+
+[Info  - 8:08:12 PM] 2022/08/26 20:08:12 go/packages.Load #90
+	snapshot=51
+	package="command-line-arguments"
+	files=[/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/Hsrr.go]
+
+[Info  - 8:08:12 PM] 2022/08/26 20:08:12 go/packages.Load #90
+	snapshot=51
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/Hsrr.go file=/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file=/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go]
+	packages=1
+
+[Info  - 8:08:12 PM] 2022/08/26 20:08:12 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:08:12 PM] 2022/08/26 20:08:12 around/util: no dep handle for gopkg.in/yaml.v2: no metadata for gopkg.in/yaml.v2
+	snapshot=52
+
+[Info  - 8:08:12 PM] 2022/08/26 20:08:12 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:08:13 PM] 2022/08/26 20:08:13 go/packages.Load #92
+	snapshot=52
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go]
+	packages=1
+
+[Info  - 8:08:13 PM] 2022/08/26 20:08:13 go/packages.Load #92
+	snapshot=52
+	package="command-line-arguments"
+	files=[/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go]
+
+[Info  - 8:08:13 PM] 2022/08/26 20:08:13 go/packages.Load #92: updating metadata for 1 packages
+
+[Info  - 8:08:13 PM] 2022/08/26 20:08:13 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:08:13 PM] 2022/08/26 20:08:13 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:08:13 PM] 2022/08/26 20:08:13 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:08:13 PM] 2022/08/26 20:08:13 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/yaml.v2 v2.2.3
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/util imports
+	gopkg.in/yaml.v2: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:08:13 PM] 2022/08/26 20:08:13 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:08:13 PM] 2022/08/26 20:08:13 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:08:13 PM] 2022/08/26 20:08:13 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:08:35 PM] 2022/08/26 20:08:35 background imports cache refresh starting
+
+[Info  - 8:08:35 PM] 2022/08/26 20:08:35 background refresh finished after 16.545259ms
+
+[Info  - 8:09:13 PM] 2022/08/26 20:09:13 go/packages.Load #108
+	snapshot=62
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/decode_test.go]
+	packages=1
+
+[Info  - 8:09:13 PM] 2022/08/26 20:09:13 go/packages.Load #108
+	snapshot=62
+	package="command-line-arguments_test [command-line-arguments.test]"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/decode_test.go]
+
+[Info  - 8:09:13 PM] 2022/08/26 20:09:13 go/packages.Load #108: updating metadata for 48 packages
+
+[Error - 8:09:13 PM] 2022/08/26 20:09:13 command-line-arguments_test [command-line-arguments.test]:file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/decode_test.go: no dep handle for gopkg.in/check.v1: no metadata for gopkg.in/check.v1
+	snapshot=62
+
+[Info  - 8:09:14 PM] 2022/08/26 20:09:14 go/packages.Load #109
+	snapshot=62
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/encode_test.go]
+	packages=1
+
+[Info  - 8:09:14 PM] 2022/08/26 20:09:14 go/packages.Load #109
+	snapshot=62
+	package="command-line-arguments_test [command-line-arguments.test]"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/encode_test.go]
+
+[Info  - 8:09:14 PM] 2022/08/26 20:09:14 go/packages.Load #109: updating metadata for 10 packages
+
+[Error - 8:09:14 PM] 2022/08/26 20:09:14 command-line-arguments_test [command-line-arguments.test]:file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/encode_test.go: no dep handle for gopkg.in/check.v1: no metadata for gopkg.in/check.v1
+	snapshot=62
+
+[Info  - 8:09:14 PM] 2022/08/26 20:09:14 go/packages.Load #110
+	snapshot=62
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/example_embedded_test.go]
+	packages=1
+
+[Info  - 8:09:14 PM] 2022/08/26 20:09:14 go/packages.Load #110
+	snapshot=62
+	package="command-line-arguments_test [command-line-arguments.test]"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/example_embedded_test.go]
+
+[Info  - 8:09:14 PM] 2022/08/26 20:09:14 go/packages.Load #110: updating metadata for 2 packages
+
+[Info  - 8:09:14 PM] 2022/08/26 20:09:14 go/packages.Load #111
+	snapshot=62
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/suite_test.go]
+	packages=1
+
+[Info  - 8:09:14 PM] 2022/08/26 20:09:14 go/packages.Load #111
+	snapshot=62
+	package="command-line-arguments_test [command-line-arguments.test]"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/suite_test.go]
+
+[Info  - 8:09:14 PM] 2022/08/26 20:09:14 go/packages.Load #111: updating metadata for 8 packages
+
+[Error - 8:09:14 PM] 2022/08/26 20:09:14 command-line-arguments_test [command-line-arguments.test]:file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/suite_test.go: no dep handle for gopkg.in/check.v1: no metadata for gopkg.in/check.v1
+	snapshot=62
+
+[Info  - 8:09:14 PM] 2022/08/26 20:09:14 go/packages.Load #112
+	snapshot=62
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.4.0/decode_test.go]
+	packages=1
+
+[Info  - 8:09:14 PM] 2022/08/26 20:09:14 go/packages.Load #112
+	snapshot=62
+	package="gopkg.in/yaml.v2_test [gopkg.in/yaml.v2.test]"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.4.0/decode_test.go /home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.4.0/encode_test.go /home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.4.0/example_embedded_test.go /home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.4.0/limit_test.go /home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.4.0/suite_test.go]
+
+[Info  - 8:09:14 PM] 2022/08/26 20:09:14 go/packages.Load #112: updating metadata for 1 packages
+
+[Error - 8:09:14 PM] 2022/08/26 20:09:14 gopkg.in/yaml.v2_test [gopkg.in/yaml.v2.test]: no dep handle for gopkg.in/check.v1: no metadata for gopkg.in/check.v1
+	snapshot=62
+
+[Info  - 8:09:15 PM] 2022/08/26 20:09:15 go/packages.Load #113
+	snapshot=62
+	directory=/home/russellmeng21/go/src/around
+	query=[around/... builtin]
+	packages=8
+
+[Info  - 8:09:15 PM] 2022/08/26 20:09:15 go/packages.Load #113: updating metadata for 291 packages
+
+[Info  - 8:09:15 PM] 2022/08/26 20:09:15 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/Hsrr.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/apic.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/decode.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/emitterc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/encode.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/parserc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/readerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+
+[Info  - 8:09:19 PM] 2022/08/26 20:09:19 go/packages.Load #114
+	snapshot=62
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/Hsrr.go file=/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file=/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file=/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file=/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file=/home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/apic.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/decode.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/emitterc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/encode.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/parserc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/readerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+	packages=1
+
+[Info  - 8:09:19 PM] 2022/08/26 20:09:19 go/packages.Load #114
+	snapshot=62
+	package="command-line-arguments"
+	files=[/home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/Hsrr.go]
+
+[Info  - 8:09:19 PM] 2022/08/26 20:09:19 go/packages.Load #114: updating metadata for 1 packages
+
+[Info  - 8:09:19 PM] 2022/08/26 20:09:19 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/apic.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/decode.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/emitterc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/encode.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/parserc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/readerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+
+[Info  - 8:09:21 PM] 2022/08/26 20:09:21 go/packages.Load #115
+	snapshot=62
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/apic.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/decode.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/emitterc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/encode.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/parserc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/readerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+	packages=1
+
+[Info  - 8:09:21 PM] 2022/08/26 20:09:21 go/packages.Load #115
+	snapshot=62
+	package="command-line-arguments"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/apic.go]
+
+[Info  - 8:09:21 PM] 2022/08/26 20:09:21 go/packages.Load #115: updating metadata for 1 packages
+
+[Info  - 8:09:21 PM] 2022/08/26 20:09:21 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/decode.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/emitterc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/encode.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/parserc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/readerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+
+[Info  - 8:09:22 PM] 2022/08/26 20:09:22 go/packages.Load #116
+	snapshot=62
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/decode.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/emitterc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/encode.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/parserc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/readerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+	packages=1
+
+[Info  - 8:09:22 PM] 2022/08/26 20:09:22 go/packages.Load #116
+	snapshot=62
+	package="command-line-arguments"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/decode.go]
+
+[Info  - 8:09:22 PM] 2022/08/26 20:09:22 go/packages.Load #116: updating metadata for 1 packages
+
+[Info  - 8:09:22 PM] 2022/08/26 20:09:22 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/emitterc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/encode.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/parserc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/readerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+
+[Info  - 8:09:23 PM] 2022/08/26 20:09:23 go/packages.Load #117
+	snapshot=62
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/emitterc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/encode.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/parserc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/readerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+	packages=1
+
+[Info  - 8:09:23 PM] 2022/08/26 20:09:23 go/packages.Load #117
+	snapshot=62
+	package="command-line-arguments"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/emitterc.go]
+
+[Info  - 8:09:23 PM] 2022/08/26 20:09:23 go/packages.Load #117: updating metadata for 1 packages
+
+[Error - 8:09:23 PM] 2022/08/26 20:09:23 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/util imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:09:23 PM] 2022/08/26 20:09:23 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/encode.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/parserc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/readerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+
+[Info  - 8:09:25 PM] 2022/08/26 20:09:25 go/packages.Load #118
+	snapshot=62
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/encode.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/parserc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/readerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+	packages=1
+
+[Info  - 8:09:25 PM] 2022/08/26 20:09:25 go/packages.Load #118
+	snapshot=62
+	package="command-line-arguments"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/encode.go]
+
+[Info  - 8:09:25 PM] 2022/08/26 20:09:25 go/packages.Load #118: updating metadata for 1 packages
+
+[Info  - 8:09:25 PM] 2022/08/26 20:09:25 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/parserc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/readerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+
+[Info  - 8:09:26 PM] 2022/08/26 20:09:26 go/packages.Load #119
+	snapshot=62
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/parserc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/readerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+	packages=1
+
+[Info  - 8:09:26 PM] 2022/08/26 20:09:26 go/packages.Load #119
+	snapshot=62
+	package="command-line-arguments"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/parserc.go]
+
+[Info  - 8:09:26 PM] 2022/08/26 20:09:26 go/packages.Load #119: updating metadata for 1 packages
+
+[Info  - 8:09:26 PM] 2022/08/26 20:09:26 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/readerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+
+[Info  - 8:09:26 PM] 2022/08/26 20:09:26 go/packages.Load #120: updating metadata for 1 packages
+
+[Info  - 8:09:26 PM] 2022/08/26 20:09:26 go/packages.Load #120
+	snapshot=62
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/readerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+	packages=1
+
+[Info  - 8:09:26 PM] 2022/08/26 20:09:26 go/packages.Load #120
+	snapshot=62
+	package="command-line-arguments"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/readerc.go]
+
+[Info  - 8:09:37 PM] 2022/08/26 20:09:37 background imports cache refresh starting
+
+[Info  - 8:09:37 PM] 2022/08/26 20:09:37 background refresh finished after 15.009059ms
+
+[Info  - 8:10:40 PM] 2022/08/26 20:10:40 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+
+[Info  - 8:10:40 PM] 2022/08/26 20:10:40 go/packages.Load #121
+	snapshot=63
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+	packages=1
+
+[Info  - 8:10:40 PM] 2022/08/26 20:10:40 go/packages.Load #121
+	snapshot=63
+	package="command-line-arguments"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/resolve.go]
+
+[Info  - 8:10:40 PM] 2022/08/26 20:10:40 go/packages.Load #121: updating metadata for 1 packages
+
+[Info  - 8:10:40 PM] 2022/08/26 20:10:40 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+
+[Info  - 8:10:41 PM] 2022/08/26 20:10:41 go/packages.Load #122
+	snapshot=63
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+	packages=1
+
+[Info  - 8:10:41 PM] 2022/08/26 20:10:41 go/packages.Load #122
+	snapshot=63
+	package="command-line-arguments"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/scannerc.go]
+
+[Info  - 8:10:41 PM] 2022/08/26 20:10:41 go/packages.Load #122: updating metadata for 1 packages
+
+[Info  - 8:10:41 PM] 2022/08/26 20:10:41 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+
+[Info  - 8:10:42 PM] 2022/08/26 20:10:42 go/packages.Load #123
+	snapshot=63
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+	packages=1
+
+[Info  - 8:10:42 PM] 2022/08/26 20:10:42 go/packages.Load #123
+	snapshot=63
+	package="command-line-arguments"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/sorter.go]
+
+[Info  - 8:10:42 PM] 2022/08/26 20:10:42 go/packages.Load #123: updating metadata for 1 packages
+
+[Info  - 8:10:42 PM] 2022/08/26 20:10:42 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+
+[Info  - 8:10:42 PM] 2022/08/26 20:10:42 go/packages.Load #124
+	snapshot=63
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+	packages=1
+
+[Info  - 8:10:42 PM] 2022/08/26 20:10:42 go/packages.Load #124
+	snapshot=63
+	package="command-line-arguments"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/writerc.go]
+
+[Info  - 8:10:42 PM] 2022/08/26 20:10:42 go/packages.Load #124: updating metadata for 1 packages
+
+[Error - 8:10:42 PM] 2022/08/26 20:10:42 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/util imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:10:42 PM] 2022/08/26 20:10:42 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+
+[Info  - 8:10:43 PM] 2022/08/26 20:10:43 go/packages.Load #125
+	snapshot=63
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+	packages=1
+
+[Info  - 8:10:43 PM] 2022/08/26 20:10:43 go/packages.Load #125
+	snapshot=63
+	package="command-line-arguments"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yaml.go]
+
+[Info  - 8:10:43 PM] 2022/08/26 20:10:43 go/packages.Load #125: updating metadata for 1 packages
+
+[Info  - 8:10:43 PM] 2022/08/26 20:10:43 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+
+[Info  - 8:10:43 PM] 2022/08/26 20:10:43 go/packages.Load #126
+	snapshot=63
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+	packages=1
+
+[Info  - 8:10:43 PM] 2022/08/26 20:10:43 go/packages.Load #126
+	snapshot=63
+	package="command-line-arguments"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlh.go]
+
+[Info  - 8:10:43 PM] 2022/08/26 20:10:43 go/packages.Load #126: updating metadata for 1 packages
+
+[Info  - 8:10:43 PM] 2022/08/26 20:10:43 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go file:///home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+
+[Info  - 8:10:43 PM] 2022/08/26 20:10:43 go/packages.Load #127
+	snapshot=63
+	directory=/home/russellmeng21/go/src/around
+	query=[file=/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+	packages=1
+
+[Info  - 8:10:43 PM] 2022/08/26 20:10:43 go/packages.Load #127
+	snapshot=63
+	package="command-line-arguments"
+	files=[/home/russellmeng21/go/pkg/mod/gopkg.in/yaml.v2@v2.2.3/yamlprivateh.go]
+
+[Info  - 8:10:43 PM] 2022/08/26 20:10:43 go/packages.Load #127: updating metadata for 1 packages
+
+[Info  - 8:11:09 PM] 2022/08/26 20:11:09 background imports cache refresh starting
+
+[Info  - 8:11:09 PM] 2022/08/26 20:11:09 background refresh finished after 15.371599ms
+
+[Error - 8:12:13 PM] 2022/08/26 20:12:13 gopkg.in/yaml.v2_test [gopkg.in/yaml.v2.test]: no dep handle for gopkg.in/check.v1: no metadata for gopkg.in/check.v1
+	snapshot=71
+
+[Error - 8:12:13 PM] 2022/08/26 20:12:13 gopkg.in/yaml.v2_test [gopkg.in/yaml.v2.test]: no dep handle for gopkg.in/check.v1: no metadata for gopkg.in/check.v1
+	snapshot=70
+
+[Error - 8:12:13 PM] 2022/08/26 20:12:13 gopkg.in/yaml.v2_test [gopkg.in/yaml.v2.test]: no dep handle for gopkg.in/check.v1: no metadata for gopkg.in/check.v1
+	snapshot=69
+
+[Error - 8:12:13 PM] 2022/08/26 20:12:13 gopkg.in/yaml.v2_test [gopkg.in/yaml.v2.test]: no dep handle for gopkg.in/check.v1: no metadata for gopkg.in/check.v1
+	snapshot=68
+
+[Info  - 8:12:13 PM] 2022/08/26 20:12:13 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:12:13 PM] 2022/08/26 20:12:13 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:12:13 PM] 2022/08/26 20:12:13 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:12:13 PM] 2022/08/26 20:12:13 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:12:13 PM] 2022/08/26 20:12:13 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/util imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:12:13 PM] 2022/08/26 20:12:13 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:12:13 PM] 2022/08/26 20:12:13 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:12:13 PM] 2022/08/26 20:12:13 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:12:58 PM] 2022/08/26 20:12:58 gopkg.in/yaml.v2_test [gopkg.in/yaml.v2.test]: no dep handle for gopkg.in/check.v1: no metadata for gopkg.in/check.v1
+	snapshot=72
+
+[Info  - 8:12:58 PM] 2022/08/26 20:12:58 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:12:58 PM] 2022/08/26 20:12:58 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:12:58 PM] 2022/08/26 20:12:58 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:12:58 PM] 2022/08/26 20:12:58 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:12:58 PM] 2022/08/26 20:12:58 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/util imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:12:58 PM] 2022/08/26 20:12:58 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:12:58 PM] 2022/08/26 20:12:58 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:12:58 PM] 2022/08/26 20:12:58 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:13:14 PM] 2022/08/26 20:13:14 background imports cache refresh starting
+
+[Info  - 8:13:14 PM] 2022/08/26 20:13:14 background refresh finished after 15.822889ms
+
+[Info  - 8:13:30 PM] 2022/08/26 20:13:30 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Error - 8:13:30 PM] 2022/08/26 20:13:30 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/martian/v3 v3.2.1
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/util imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 8:13:30 PM] 2022/08/26 20:13:30 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:13:30 PM] 2022/08/26 20:13:30 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:13:30 PM] 2022/08/26 20:13:30 reloadOrphanedFiles reloading
+	query=[file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/cunW.go file:///home/russellmeng21/.vscode-server/data/User/History/-507b3bf3/i1PJ.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/S6R5.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/Wu4d.go file:///home/russellmeng21/.vscode-server/data/User/History/74d7cbf8/e4YQ.go]
+
+[Info  - 8:14:08 PM] 2022/08/26 20:14:08 Shutdown session
+	shutdown_session=1
+

@@ -1,0 +1,71 @@
+[2022-08-18 02:13:14.945] [exthost] [info] Extension host with pid 15664 started
+[2022-08-18 02:13:14.959] [exthost] [info] Lock '/home/russellmeng21/.vscode-server/data/User/workspaceStorage/c8cb1820363efe9126a907e475b77324/vscode.lock': Lock acquired.
+[2022-08-18 02:13:15.095] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+[2022-08-18 02:13:15.269] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-18 02:13:15.275] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-18 02:13:15.281] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-18 02:13:15.424] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-18 02:13:15.518] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-18 02:13:16.076] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-18 02:13:16.087] [exthost] [info] Lock '/home/russellmeng21/.vscode-server/data/User/workspaceStorage/c8cb1820363efe9126a907e475b77324/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-18 02:13:16.109] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-18 02:13:16.137] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-18 02:13:16.146] [exthost] [info] Eager extensions activated
+[2022-08-18 02:13:16.147] [exthost] [error] Activating extension vscode.emmet failed due to an error:
+[2022-08-18 02:13:16.147] [exthost] [error] Canceled: Canceled
+	at new D (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:42878)
+	at o._remoteCall (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:95:13748)
+	at Proxy.A.<computed>.B.charCodeAt.A.<computed> (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:95:10303)
+	at T.initializeExtensionStorage (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:143233)
+	at new n (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:106530)
+	at new D (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:107546)
+	at b._loadExtensionContext (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:15119)
+	at b._doActivateExtension (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:14835)
+	at b._activateExtension (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:13693)
+	at Object.actualActivateExtension (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:9858)
+	at v._activate (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:8197)
+	at v._waitForDepsThenActivate (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:8133)
+	at v._initialize (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:7497)
+	at new v (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:7296)
+	at P._createAndSaveOperation (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:6921)
+	at P._handleActivationRequest (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:6832)
+	at /home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:5264
+	at Array.map (<anonymous>)
+	at P._activateExtensions (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:5252)
+	at P.activateById (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:5128)
+	at b._activateById (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:11739)
+	at b._activateOneStartupFinished (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:17710)
+	at b._activateAllStartupFinished (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:18088)
+	at /home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:18585
+[2022-08-18 02:13:16.148] [exthost] [error] Activating extension vscode.merge-conflict failed due to an error:
+[2022-08-18 02:13:16.148] [exthost] [error] Canceled: Canceled
+	at new D (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:42878)
+	at o._remoteCall (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:95:13748)
+	at Proxy.A.<computed>.B.charCodeAt.A.<computed> (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:95:10303)
+	at T.initializeExtensionStorage (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:143233)
+	at new n (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:106530)
+	at new D (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:107546)
+	at b._loadExtensionContext (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:15119)
+	at b._doActivateExtension (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:14835)
+	at b._activateExtension (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:13693)
+	at Object.actualActivateExtension (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:9858)
+	at v._activate (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:8197)
+	at v._waitForDepsThenActivate (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:8133)
+	at v._initialize (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:7497)
+	at new v (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:7296)
+	at P._createAndSaveOperation (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:6921)
+	at P._handleActivationRequest (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:6832)
+	at /home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:5264
+	at Array.map (<anonymous>)
+	at P._activateExtensions (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:5252)
+	at P.activateById (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:85:5128)
+	at b._activateById (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:11739)
+	at b._activateOneStartupFinished (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:17710)
+	at b._activateAllStartupFinished (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:18088)
+	at /home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:18585
+[2022-08-18 02:13:18.109] [exthost] [error] Error: Stopping the server timed out
+	at /home/russellmeng21/.vscode-server/extensions/golang.go-0.35.1/dist/goMain.js:17245:19
+	at async Promise.all (index 0)
+	at async Promise.all (index 5)
+	at async b._deactivateAll (/home/russellmeng21/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:97:10646)
+[2022-08-18 02:13:18.110] [exthost] [info] Extension host with pid 15664 exiting with code 0

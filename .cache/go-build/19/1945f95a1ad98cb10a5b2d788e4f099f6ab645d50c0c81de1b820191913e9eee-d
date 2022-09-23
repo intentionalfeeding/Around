@@ -1,0 +1,4 @@
+./diff.go
+./pretty.go
+./diff_test.go
+./pretty_test.go

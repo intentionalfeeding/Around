@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "afterDelay",
+    "remote.SSH.remotePlatform": {
+        "34.172.76.200": "linux"
+    }
+}

@@ -1,0 +1,49 @@
+[Info  - 2:17:42 AM] 2022/08/04 02:17:42 go env for /home/russellmeng21
+(root /home/russellmeng21/go/src/around)
+(go version go version go1.18.4 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOSUMDB=sum.golang.org
+GONOPROXY=
+GOPROXY=https://proxy.golang.org,direct
+GOPATH=/home/russellmeng21/go
+GOWORK=
+GO111MODULE=
+GOINSECURE=
+GOPRIVATE=
+GOCACHE=/home/russellmeng21/.cache/go-build
+GONOSUMDB=
+GOMODCACHE=/home/russellmeng21/go/pkg/mod
+GOFLAGS=
+GOMOD=/dev/null
+GOROOT=/usr/lib/go-1.18
+
+
+[Info  - 2:17:42 AM] 2022/08/04 02:17:42 go/packages.Load #1
+	snapshot=0
+	directory=/home/russellmeng21/go/src/around
+	query=[around/... builtin]
+	packages=7
+
+[Info  - 2:17:42 AM] 2022/08/04 02:17:42 go/packages.Load #1: updating metadata for 142 packages
+
+[Info  - 2:17:43 AM] 2022/08/04 02:17:43 falling back to safe trimming due to type errors: [/usr/lib/go-1.18/src/runtime/vdso_linux.go:53:38: invalid operation: division by zero /usr/lib/go-1.18/src/runtime/vdso_linux.go:54:38: invalid operation: division by zero] or still-missing identifiers: map[memRecordCycle:true pageBits:true]
+	package="runtime"
+
+[Info  - 2:17:43 AM] 2022/08/04 02:17:43 discovered missing identifiers: map[options:true]
+	package="vendor/golang.org/x/text/unicode/bidi"
+
+[Error - 2:17:44 AM] 2022/08/04 02:17:44 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+
+
+[Error - 2:17:44 AM] 2022/08/04 02:17:44 tidy: diagnosing file:///home/russellmeng21/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+
+

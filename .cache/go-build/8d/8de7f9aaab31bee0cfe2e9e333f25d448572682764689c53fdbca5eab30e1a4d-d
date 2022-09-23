@@ -1,0 +1,5 @@
+./doc.go
+./iam_client.go
+./path_funcs.go
+./policy_methods.go
+./mock_test.go

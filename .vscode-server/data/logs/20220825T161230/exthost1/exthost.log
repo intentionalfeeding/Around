@@ -1,0 +1,44 @@
+[2022-08-25 16:12:32.442] [exthost] [info] Extension host with pid 5157 started
+[2022-08-25 16:12:32.459] [exthost] [info] Lock '/home/russellmeng21/.vscode-server/data/User/workspaceStorage/c8cb1820363efe9126a907e475b77324/vscode.lock': Lock acquired.
+[2022-08-25 16:12:32.641] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+[2022-08-25 16:12:33.019] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-25 16:12:33.027] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-25 16:12:33.038] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-25 16:12:33.212] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-25 16:12:33.334] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-25 16:12:34.423] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-25 16:12:34.510] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-25 16:12:34.517] [exthost] [info] Eager extensions activated
+[2022-08-25 16:34:25.328] [exthost] [error] [golang.go] provider FAILED
+[2022-08-25 16:34:25.329] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.1/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.1/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.1/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-25 16:34:25.834] [exthost] [error] [golang.go] provider FAILED
+[2022-08-25 16:34:25.834] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.1/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.1/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.1/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-25 16:38:54.968] [exthost] [error] [golang.go] provider FAILED
+[2022-08-25 16:38:54.968] [exthost] [error] Error: context canceled
+	at handleResponse (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.1/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.1/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.1/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-25 16:39:25.158] [exthost] [error] [golang.go] provider FAILED
+[2022-08-25 16:39:25.158] [exthost] [error] Error: no object found for ident GCS_BUCKET
+	at handleResponse (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.1/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.1/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.1/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-25 16:39:25.185] [exthost] [error] [golang.go] provider FAILED
+[2022-08-25 16:39:25.185] [exthost] [error] Error: no object found for ident GCS_BUCKET
+	at handleResponse (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.1/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.1/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/russellmeng21/.vscode-server/extensions/golang.go-0.35.1/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-26 03:24:09.801] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-26 03:24:09.804] [exthost] [info] Lock '/home/russellmeng21/.vscode-server/data/User/workspaceStorage/c8cb1820363efe9126a907e475b77324/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-26 03:24:09.840] [exthost] [info] Extension host with pid 5157 exiting with code 0

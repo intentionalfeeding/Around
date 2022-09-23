@@ -1,0 +1,16 @@
+./canonical.go
+./compress.go
+./cors.go
+./doc.go
+./handlers.go
+./logging.go
+./proxy_headers.go
+./recovery.go
+./canonical_test.go
+./compress_test.go
+./cors_test.go
+./handlers_go18_test.go
+./handlers_test.go
+./logging_test.go
+./proxy_headers_test.go
+./recovery_test.go

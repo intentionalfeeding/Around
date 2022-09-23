@@ -1,0 +1,21 @@
+[2022-09-08T03:18:01.003Z] Log level: Info
+[2022-09-08T03:18:01.017Z] [info] Validating found git in: git
+[2022-09-08T03:18:01.105Z] [info] Using git 2.17.1 from git
+[2022-09-08T03:18:01.184Z] > git rev-parse --show-toplevel [15ms]
+[2022-09-08T03:18:01.203Z] > git rev-parse --git-dir --git-common-dir [7ms]
+[2022-09-08T03:18:01.213Z] [info] Open repository: /home/russellmeng21
+[2022-09-08T03:18:01.453Z] > git status -z -uall [231ms]
+[2022-09-08T03:18:01.763Z] > git check-ignore -v -z --stdin [2ms]
+[2022-09-08T03:18:03.226Z] > git check-ignore -v -z --stdin [2ms]
+[2022-09-08T03:18:10.202Z] > git symbolic-ref --short HEAD [1ms]
+[2022-09-08T03:18:10.209Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-09-08T03:18:10.218Z] > git remote --verbose [2ms]
+[2022-09-08T03:18:10.218Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-09-08T03:18:12.512Z] > git config --get commit.template [16ms]
+[2022-09-08T03:18:12.763Z] > git status -z -uall [240ms]
+[2022-09-08T03:18:12.763Z] > git symbolic-ref --short HEAD [1ms]
+[2022-09-08T03:18:12.770Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-09-08T03:18:12.780Z] > git remote --verbose [1ms]
+[2022-09-08T03:18:12.780Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-09-08T03:18:16.530Z] > git config --get commit.template [3614ms]
+[2022-09-08T03:18:21.453Z] > git check-ignore -v -z --stdin [1ms]

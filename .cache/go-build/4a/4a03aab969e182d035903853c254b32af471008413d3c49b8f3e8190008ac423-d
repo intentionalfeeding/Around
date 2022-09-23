@@ -1,0 +1,4 @@
+./doc.go
+./iam_credentials_client.go
+./version.go
+./mock_test.go

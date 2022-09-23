@@ -1,0 +1,3 @@
+./frame_test.go
+./pclntab_test.go
+./type_test.go

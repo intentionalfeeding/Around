@@ -1,0 +1,27 @@
+[2022-09-23T21:16:19.176Z] Log level: Info
+[2022-09-23T21:16:19.186Z] [info] Validating found git in: git
+[2022-09-23T21:16:19.285Z] [info] Using git 2.17.1 from git
+[2022-09-23T21:16:19.353Z] > git rev-parse --show-toplevel [29ms]
+[2022-09-23T21:16:19.380Z] > git rev-parse --git-dir --git-common-dir [6ms]
+[2022-09-23T21:16:19.388Z] [info] Open repository: /home/russellmeng21
+[2022-09-23T21:16:19.946Z] > git check-ignore -v -z --stdin [10ms]
+[2022-09-23T21:16:20.080Z] > git status -z -uall [681ms]
+[2022-09-23T21:16:30.644Z] > git symbolic-ref --short HEAD [1ms]
+[2022-09-23T21:16:30.650Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+[2022-09-23T21:16:30.661Z] > git remote --verbose [2ms]
+[2022-09-23T21:16:30.661Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-09-23T21:16:31.879Z] > git config --get commit.template [9ms]
+[2022-09-23T21:16:32.115Z] > git status -z -uall [225ms]
+[2022-09-23T21:16:32.115Z] > git symbolic-ref --short HEAD [1ms]
+[2022-09-23T21:16:32.123Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-09-23T21:16:32.140Z] > git remote --verbose [1ms]
+[2022-09-23T21:16:32.140Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+[2022-09-23T21:16:33.413Z] > git config --get commit.template [1136ms]
+[2022-09-23T21:16:41.253Z] > git check-ignore -v -z --stdin [2ms]
+[2022-09-23T21:17:46.686Z] > git check-ignore -v -z --stdin [2ms]
+[2022-09-23T21:28:35.593Z] > git check-ignore -v -z --stdin [1ms]
+[2022-09-23T21:28:40.678Z] > git check-ignore -v -z --stdin [2ms]
+[2022-09-23T21:28:42.756Z] > git check-ignore -v -z --stdin [1ms]
+[2022-09-23T21:30:01.362Z] > git check-ignore -v -z --stdin [1ms]
+[2022-09-23T21:30:06.037Z] > git show --textconv :.gitconfig [6ms]
+[2022-09-23T21:30:06.038Z] > git ls-files --stage -- /home/russellmeng21/.gitconfig [2ms]

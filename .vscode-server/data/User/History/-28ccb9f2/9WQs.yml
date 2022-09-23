@@ -1,0 +1,10 @@
+elasticsearch:
+  address: "http"//34.172.76.200"
+  username: "russellmeng21"
+  password: "YOUR_ELASTICSEARCH_PASSWORD"
+
+gcs:
+  bucket: "YOUR_GCS_BUCKET_NAME"
+
+token:
+  secret: "secret"

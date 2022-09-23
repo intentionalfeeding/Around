@@ -1,0 +1,5 @@
+./decode_test.go
+./encode_test.go
+./example_embedded_test.go
+./limit_test.go
+./suite_test.go

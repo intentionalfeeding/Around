@@ -1,0 +1,15 @@
+[2022-08-25 16:12:30.603] [remoteagent] [info] Extension host agent started.
+[2022-08-25 16:12:30.876] [remoteagent] [info] [127.0.0.1][d710464c][ManagementConnection] New connection established.
+[2022-08-25 16:12:30.947] [remoteagent] [info] [127.0.0.1][d1c54d9e][ExtensionHostConnection] New connection established.
+[2022-08-25 16:12:30.954] [remoteagent] [info] [127.0.0.1][d1c54d9e][ExtensionHostConnection] <5157> Launched Extension Host Process.
+[2022-08-25 16:12:33.900] [remoteagent] [info] Getting Manifest... golang.go
+[2022-08-25 16:12:34.091] [remoteagent] [info] Installing extension: golang.go
+[2022-08-25 16:12:34.767] [remoteagent] [info] Downloaded extension: golang.go /home/russellmeng21/.vscode-server/data/CachedExtensionVSIXs/golang.go-0.35.2
+[2022-08-25 16:12:34.944] [remoteagent] [info] Extracted extension to /home/russellmeng21/.vscode-server/extensions/.48dd564f-f3a9-44d4-a1ee-c116ce5bc0a8: golang.go
+[2022-08-25 16:12:34.958] [remoteagent] [info] Renamed to /home/russellmeng21/.vscode-server/extensions/golang.go-0.35.2
+[2022-08-25 16:12:34.961] [remoteagent] [info] Extracting completed. golang.go
+[2022-08-25 16:12:34.969] [remoteagent] [info] Extension installed successfully: golang.go
+[2022-08-26 03:24:09.814] [remoteagent] [info] [127.0.0.1][d710464c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-08-26 03:24:09.859] [remoteagent] [info] [127.0.0.1][d1c54d9e][ExtensionHostConnection] <5157> Extension Host Process exited with code: 0, signal: null.
+[2022-08-26 03:24:09.859] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-08-26 03:29:09.861] [remoteagent] [info] Last EH closed, shutting down

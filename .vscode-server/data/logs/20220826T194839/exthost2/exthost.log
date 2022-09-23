@@ -1,0 +1,19 @@
+[2022-08-26 20:14:21.812] [exthost] [info] Extension host with pid 17417 started
+[2022-08-26 20:14:21.835] [exthost] [info] Lock '/home/russellmeng21/.vscode-server/data/User/workspaceStorage/c8cb1820363efe9126a907e475b77324/vscode.lock': Lock acquired.
+[2022-08-26 20:14:21.953] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+[2022-08-26 20:14:22.245] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-26 20:14:22.253] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-26 20:14:22.260] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-26 20:14:22.395] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-26 20:14:22.491] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-26 20:14:23.172] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-26 20:14:23.229] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-26 20:14:23.241] [exthost] [info] Eager extensions activated
+[2022-08-26 20:14:30.260] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2022-08-26 20:14:32.952] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+[2022-08-26 20:17:05.155] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-26 20:17:05.168] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-26 20:17:05.246] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-26 20:25:28.441] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-26 20:25:28.442] [exthost] [info] Lock '/home/russellmeng21/.vscode-server/data/User/workspaceStorage/c8cb1820363efe9126a907e475b77324/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-26 20:25:28.480] [exthost] [info] Extension host with pid 17417 exiting with code 0

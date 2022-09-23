@@ -1,0 +1,4 @@
+./doc.go
+./rpcreplay.go
+./fake_test.go
+./rpcreplay_test.go

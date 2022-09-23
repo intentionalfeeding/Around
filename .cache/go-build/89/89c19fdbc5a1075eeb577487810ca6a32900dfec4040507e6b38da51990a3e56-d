@@ -1,0 +1,7 @@
+./metadata.go
+./retry.go
+./retry_linux.go
+./metadata_go113_test.go
+./metadata_test.go
+./retry_linux_test.go
+./retry_test.go
